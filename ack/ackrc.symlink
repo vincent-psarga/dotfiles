@@ -1,0 +1,27 @@
+# Always color, even if piping to a filter
+--color
+
+# Follow symlinks:
+--follow
+
+# Custom types
+--type-set=handlebars=.hbs,.handlebars
+--type-set=capistrano=.cap
+--type-set=puppet=.pp
+
+# Additions for plone:
+--type-set=plone=.zcml,.xml,.zpt,.dtml,.vpy,.props,.pt
+
+# ZCML files
+--type-set=zcml=.zcml
+
+# Define i18n file types:
+--type-set=i18n=.pot,.po
+
+# buildout config files
+--type-set=buildout=.cfg
+
+# KSS files
+--type-set=kss=.kss
+
+--type-set=css=.css,.sass
