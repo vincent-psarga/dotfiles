@@ -43,6 +43,7 @@ install_dotfiles () {
     dest_dir=`grep "doftfile_export_dir=" $source | cut -d = -f 2`
     [ -n "`grep dotfiles_no_dot $source`" ] && prefix="" || prefix="."
 
+    mkdir -p "$HOME/$dest_dir"
     dest="$HOME/$dest_dir$prefix`basename \"${source%.*}\"`"
 
     if [ -f $dest ] || [ -d $dest ]
