@@ -23,5 +23,5 @@ set PATH /usr/local/bin $PATH
 set PATH $HOME/bin $PATH
 set PATH $HOME/bin/elasticsearch-1.0.0/bin $PATH
 
-set EDITOR emacs
+setenv EDITOR emacs
 alias ack="ack-grep"
