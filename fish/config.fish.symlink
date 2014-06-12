@@ -20,7 +20,7 @@ set fish_plugins rvm git rails
 . $fish_path/oh-my-fish.fish
 
 set PATH /usr/local/bin $PATH
-set PATH $HOME/bin $PATH
+set PATH $HOME/bin/phantomjs/bin $PATH
 set PATH $HOME/bin/elasticsearch-1.0.0/bin $PATH
 
 setenv EDITOR emacs
