@@ -23,5 +23,9 @@ set PATH /usr/local/bin $PATH
 set PATH $HOME/bin/phantomjs/bin $PATH
 set PATH $HOME/bin/elasticsearch-1.0.0/bin $PATH
 
+set PATH /usr/local/sbin $PATH
+set PATH /sbin $PATH
+set PATH /usr/sbin $PATH
+
 setenv EDITOR emacs
 alias ack="ack-grep"
