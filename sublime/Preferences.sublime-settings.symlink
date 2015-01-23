@@ -1,0 +1,9 @@
+// doftfile_export_dir=.config/sublime-text-2/Packages/User/
+// dotfiles_no_dot
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "true"
+}
