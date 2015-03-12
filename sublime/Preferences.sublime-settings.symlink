@@ -1,10 +1,6 @@
-// doftfile_export_dir_osx=Library/Application Support/Sublime Text 2/Packages/User/
-// doftfile_export_dir=.config/sublime-text-2/Packages/User/
-// dotfiles_no_dot
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
 {
-    "tab_size": 2,
-    "translate_tabs_to_spaces": true,
-    "word_wrap": "true"
+	"font_size": 11.0,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "true"
 }
