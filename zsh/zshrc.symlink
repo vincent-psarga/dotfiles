@@ -27,3 +27,5 @@ alias elasticsearch="docker run -p 9200:9200 elasticsearch:1.5.2"
 alias jenkins="docker run -p 8080:8080 -v ~/dev/vms/jenkins_home:/var/jenkins_home jenkins"
 
 # export MANPATH="/usr/local/man:$MANPATH"
+
+eval "$(thefuck --alias)"

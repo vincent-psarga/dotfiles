@@ -2,5 +2,54 @@
 	"font_size": 11.0,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"word_wrap": "true"
+	"word_wrap": true,
+  "ensure_newline_at_eof_on_save": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "file_exclude_patterns": [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.map",
+        "*.class",
+        "*.psd",
+        "*.min.js",
+        "*.db",
+        ".scssc",
+        "tags"
+    ],
+    "folder_exclude_patterns": [
+        ".idea",
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        ".bundle",
+        "dist",
+        "node_modules",
+        "public/assets",
+        "vendor/cache",
+        "git-ignored",
+        "tmp",
+        ".tmp",
+        "coverage"
+    ]
 }
