@@ -25,6 +25,7 @@ source $HOME/.rvm/scripts/rvm
 alias ack="ack-grep"
 alias elasticsearch="docker run -p 9200:9200 elasticsearch:1.5.2"
 alias jenkins="docker run -p 8080:8080 -v ~/dev/vms/jenkins_home:/var/jenkins_home jenkins"
+alias hiptest_pg_test="docker run -e POSTGRES_DB=hiptest_test -e POSTGRES_USER=hiptest -e POSTGRES_PASSWORD=hiptest -p 5433:5432 postgres:9.3"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
