@@ -30,3 +30,10 @@ alias hiptest_pg_test="docker run -e POSTGRES_DB=hiptest_test -e POSTGRES_USER=h
 # export MANPATH="/usr/local/man:$MANPATH"
 
 eval "$(thefuck --alias)"
+
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
+
+# Fix issues on OSX / Python
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
