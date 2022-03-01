@@ -16,31 +16,15 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=/usr/X11/bin/:$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/X11/bin/:$HOME/bin:/usr/local/bin:$PATH:/opt/homebrew/bin
 export EDITOR=emacs
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
 alias ack="ack-grep"
-alias elasticsearch="docker run -p 9200:9200 elasticsearch:1.5.2"
-alias jenkins="docker run -p 8080:8080 -v ~/dev/vms/jenkins_home:/var/jenkins_home jenkins"
-alias hiptest_pg_test="docker run -e POSTGRES_DB=hiptest_test -e POSTGRES_USER=hiptest -e POSTGRES_PASSWORD=hiptest -p 5433:5432 postgres:9.3"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 eval "$(thefuck --alias)"
 
-export PATH=$PATH:$(go env GOPATH)/bin
-export GOPATH=$(go env GOPATH)
-
-# Fix issues on OSX / Python
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
